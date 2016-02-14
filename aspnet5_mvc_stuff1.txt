@@ -58,9 +58,28 @@ npm install generator-aspnet -g
 
 
 ==================================
+HOW TO RUN CODE
+run code with calling:
+dnx run (in the source folder)
+for e.g.:
+code here:
+https://github.com/soomro/mvc_aspnet5_demo/tree/master/HelloWorld
 
+==================================
+INSTALLING YO
+We can create projects quickly, it'll be used for code generation 
 
+command to install:
+npm install yo
 
+==================================
+we will not install generator-aspnet
+
+command:
+npm install generator-aspnet -g
+
+==================================
+ 
 ==================================
 reference:
 https://app.pluralsight.com/library/courses/aspdotnet-5-ef7-bootstrap-angular-web-app/table-of-contents
