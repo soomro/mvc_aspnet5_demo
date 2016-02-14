@@ -19,17 +19,33 @@ dnx [dot net execution environment]
 Version manager:
 dnvm - to install the versions of asp.net
 
+Please install dnvm if it has not installed any version yet. by writing on the console:
+dnvm
+
+then see the list of versions instlaled by:
+dnvm list
+
+dnvm install 1.0.0-rc1-final -arch x86
+dnvm install 1.0.0-rc1-final -r coreclr
+dnvm install 1.0.0-rc1-final -r coreclr -arch x86
+dnvm list
+
 .dnx\runtimes
 check here to see if there is a valid runtime.
 
 to get a new version of runtime.
 dnvm upgrade
 
-dnvm list
+==================================
+setting up the clr for use:
 
 dnvm use ....-final -r clr -arch x86 		[for only one session]
 dnvm use ....-final -r clr -arch x86 -p 	[persistance]
-alias default ....final -a x86 -r clr
+for e.g in my box i did this:
+dnvm use 1.0.0-rc1-update1 -r clr -arch x86 -p
+
+setting a alias:
+alias aliasname ....final -a x86 -r clr
 dnx --version (it tells which version it's using)
 
 ==================================
