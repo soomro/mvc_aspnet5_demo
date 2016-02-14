@@ -1,0 +1,52 @@
+Notes from Building a Web App with ASP.NET 5, MVC 6, EF7 and AngularJS
+==================================
+
+- asp.net5
+	cross platform
+
+	.net 4.6 
+	.net core	light weight
+	mono opensoure cross-platform .net framework
+	coreCLR have limited fuctionality
+
+- mvc6
+- ef7
+- dnxexe
+==================================
+
+dnx [dot net execution environment]
+==================================
+Version manager:
+dnvm - to install the versions of asp.net
+
+.dnx\runtimes
+check here to see if there is a valid runtime.
+
+to get a new version of runtime.
+dnvm upgrade
+
+dnvm list
+
+dnvm use ....-final -r clr -arch x86 		[for only one session]
+dnvm use ....-final -r clr -arch x86 -p 	[persistance]
+alias default ....final -a x86 -r clr
+dnx --version (it tells which version it's using)
+
+==================================
+install visual studio code
+google it, and download,
+
+to install aspnet code generator:
+run this on command prompt:
+npm install generator-aspnet -g
+
+
+==================================
+
+
+
+==================================
+reference:
+https://app.pluralsight.com/library/courses/aspdotnet-5-ef7-bootstrap-angular-web-app/table-of-contents
+==================================
+
